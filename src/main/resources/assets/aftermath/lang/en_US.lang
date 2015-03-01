@@ -1,0 +1,6 @@
+item.aftermath:leadIngot.name=Lead Ingot
+
+tile.aftermath:leadOre.name=Lead Ore
+tile.aftermath:leadBlock.name=Lead Block
+
+itemGroup.aftermath=Aftermath

@@ -2,9 +2,12 @@ package com.strubinator.aftermath;
 
 
 import com.strubinator.aftermath.handler.ConfigurationHandler;
+import com.strubinator.aftermath.init.ModBlocks;
+import com.strubinator.aftermath.init.ModItems;
 import com.strubinator.aftermath.proxy.IProxy;
 import com.strubinator.aftermath.reference.Reference;
 import com.strubinator.aftermath.utility.LogHelper;
+import cpw.mods.fml.common.FMLCommonHandler;
 import cpw.mods.fml.common.Mod;
 import cpw.mods.fml.common.Mod.EventHandler;
 import cpw.mods.fml.common.Mod.Instance;
@@ -26,6 +29,9 @@ public class Aftermath
     public void PreInit(FMLPreInitializationEvent event)
     {
         ConfigurationHandler.init(event.getSuggestedConfigurationFile());
+        FMLCommonHandler.instance().bus().register(new ConfigurationHandler());
+        ModItems.init();
+        ModBlocks.init();
         LogHelper.info("Pre Initialization Complete");
     }
 
