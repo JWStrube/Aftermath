@@ -14,6 +14,7 @@ public class BlockLeadBlock extends BlockAftermath
         this.setBlockName(Names.Blocks.LEAD_BLOCK);
         this.setBlockTextureName(Names.Blocks.LEAD_BLOCK);
         this.setResistance(10.0F).setStepSound(soundTypeMetal);
+        this.setHardness(5.0F);
 
     }
 }
