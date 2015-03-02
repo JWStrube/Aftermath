@@ -4,6 +4,7 @@ package com.strubinator.aftermath;
 import com.strubinator.aftermath.handler.ConfigurationHandler;
 import com.strubinator.aftermath.init.ModBlocks;
 import com.strubinator.aftermath.init.ModItems;
+import com.strubinator.aftermath.init.Recipes;
 import com.strubinator.aftermath.proxy.IProxy;
 import com.strubinator.aftermath.reference.Reference;
 import com.strubinator.aftermath.utility.LogHelper;
@@ -32,18 +33,20 @@ public class Aftermath
         FMLCommonHandler.instance().bus().register(new ConfigurationHandler());
         ModItems.init();
         ModBlocks.init();
-        LogHelper.info("Pre Initialization Complete");
+       // LogHelper.info("Pre Initialization Complete");
     }
 
     @EventHandler
     public void Init(FMLInitializationEvent event)
     {
-        LogHelper.info("Initialization Complete");
+        Recipes.init();
+
+       // LogHelper.info("Initialization Complete");
     }
 
     @EventHandler
     public void PostInit(FMLPostInitializationEvent event)
     {
-        LogHelper.info("Post Initialization Complete");
+        //LogHelper.info("Post Initialization Complete");
     }
 }
