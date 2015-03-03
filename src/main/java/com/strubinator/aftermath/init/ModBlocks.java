@@ -6,6 +6,7 @@ import com.strubinator.aftermath.block.BlockOre;
 import com.strubinator.aftermath.reference.Names;
 import com.strubinator.aftermath.reference.Reference;
 import cpw.mods.fml.common.registry.GameRegistry;
+import net.minecraft.block.Block;
 
 /**
  * Created by John on 2/28/2015.
