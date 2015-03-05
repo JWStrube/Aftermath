@@ -2,5 +2,7 @@ item.aftermath:leadIngot.name=Lead Ingot
 
 tile.aftermath:leadOre.name=Lead Ore
 tile.aftermath:leadBlock.name=Lead Block
+tile.aftermath:deadDirt.name=Contaminated Dirt
+tile.aftermath:deadGrass.name=Contaminated Grass
 
 itemGroup.aftermath=Aftermath

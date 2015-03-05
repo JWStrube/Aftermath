@@ -14,6 +14,8 @@ public class Names
     {
         public static final String LEAD_ORE = "leadOre";
         public static final String LEAD_BLOCK = "leadBlock";
+        public static final String DEAD_DIRT = "deadDirt";
+        public static final String DEAD_GRASS = "deadGrass";
 
     }
 }
