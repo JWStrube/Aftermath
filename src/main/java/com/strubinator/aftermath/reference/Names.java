@@ -17,8 +17,6 @@ public class Names
         public static final String DEAD_DIRT = "deadDirt";
         public static final String DEAD_GRASS = "deadGrass";
         public static final String ORGANIC_MATTER = "organicMatter";
-        public static final String COMPOST = "compost";
-        public static final String HUMUS = "humus";
 
     }
 }
