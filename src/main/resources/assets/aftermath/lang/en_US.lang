@@ -4,5 +4,8 @@ tile.aftermath:leadOre.name=Lead Ore
 tile.aftermath:leadBlock.name=Lead Block
 tile.aftermath:deadDirt.name=Contaminated Dirt
 tile.aftermath:deadGrass.name=Contaminated Grass
+tile.aftermath:organicMatter.name=Organic Matter
+tile.aftermath:organicMatterCompost.name=Compost
+tile.aftermath:organicMatterHumus.name=Humus
 
 itemGroup.aftermath=Aftermath

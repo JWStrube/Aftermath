@@ -21,7 +21,8 @@ public class BiomesAftermath
     {
         biomeWasteland = new BiomeWasteland(69).setBiomeName("Wasteland");
         BiomeDictionary.registerBiomeType(biomeWasteland, BiomeDictionary.Type.DEAD);
-        BiomeManager.addBiome(BiomeManager.BiomeType.WARM, new BiomeManager.BiomeEntry(biomeWasteland,10));
+        BiomeManager.addBiome(BiomeManager.BiomeType.WARM, new BiomeManager.BiomeEntry(biomeWasteland,1000));
+
 
 
 

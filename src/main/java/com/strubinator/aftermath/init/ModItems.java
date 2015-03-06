@@ -1,10 +1,15 @@
 package com.strubinator.aftermath.init;
 
+import com.strubinator.aftermath.block.BlockAftermath;
 import com.strubinator.aftermath.item.ItemAftermath;
 import com.strubinator.aftermath.item.ItemLeadIngot;
 import com.strubinator.aftermath.reference.Names;
 import com.strubinator.aftermath.reference.Reference;
 import cpw.mods.fml.common.registry.GameRegistry;
+import net.minecraft.block.Block;
+import net.minecraft.item.ItemBlock;
+
+import java.util.Iterator;
 
 /**
  * Created by John on 2/28/2015.
@@ -19,4 +24,7 @@ public class ModItems
         GameRegistry.registerItem(leadIngot, Names.Items.LEAD_INGOT);
 
     }
+
+
 }
+

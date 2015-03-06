@@ -37,6 +37,7 @@ public class BlockAftermath extends Block
     public void registerBlockIcons(IIconRegister iconRegister)
     {
         blockIcon = iconRegister.registerIcon(String.format("%s", getUnwrappedUnlocalizedName(this.getUnlocalizedName())));
+
     }
 
     protected String getUnwrappedUnlocalizedName(String unlocalizedName)
