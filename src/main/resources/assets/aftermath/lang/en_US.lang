@@ -7,5 +7,6 @@ tile.aftermath:deadGrass.name=Contaminated Grass
 tile.aftermath:organicMatter.name=Organic Matter
 tile.aftermath:organicMatterCompost.name=Compost
 tile.aftermath:organicMatterHumus.name=Humus
+tile.aftermath:deadLog.name=Dead Log
 
 itemGroup.aftermath=Aftermath
