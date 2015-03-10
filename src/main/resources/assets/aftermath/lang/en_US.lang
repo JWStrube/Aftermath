@@ -1,5 +1,6 @@
 item.aftermath:leadIngot.name=Lead Ingot
 item.aftermath:cookedMushroom.name=Cooked Mushroom
+item.aftermath:mushroom.name=White Mushroom
 
 tile.aftermath:leadOre.name=Lead Ore
 tile.aftermath:leadBlock.name=Lead Block
