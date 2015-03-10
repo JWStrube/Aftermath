@@ -8,6 +8,8 @@ public class Names
     public static final class Items
     {
         public static final String LEAD_INGOT = "leadIngot";
+        public static final String COOKED_MUSHROOM = "cookedMushroom";
+        public static final String MUSHROOM = "mushroom";
     }
 
     public static final class Blocks
@@ -18,6 +20,8 @@ public class Names
         public static final String DEAD_GRASS = "deadGrass";
         public static final String ORGANIC_MATTER = "organicMatter";
         public static final String DEAD_LOG = "deadLog";
+        public static final String MUSHROOM_EDIBLE ="mushroomEdible";
+        public static final String MUSHROOM_POISON = "mushroomPoison";
 
     }
 }

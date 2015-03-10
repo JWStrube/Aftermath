@@ -1,4 +1,5 @@
 item.aftermath:leadIngot.name=Lead Ingot
+item.aftermath:cookedMushroom.name=Cooked Mushroom
 
 tile.aftermath:leadOre.name=Lead Ore
 tile.aftermath:leadBlock.name=Lead Block
@@ -8,5 +9,7 @@ tile.aftermath:organicMatter.name=Organic Matter
 tile.aftermath:organicMatterCompost.name=Compost
 tile.aftermath:organicMatterHumus.name=Humus
 tile.aftermath:deadLog.name=Dead Log
+tile.aftermath:mushroomEdible.name=White Mushrooms
+tile.aftermath:mushroomPoison.name=Red Cap Mushroom
 
 itemGroup.aftermath=Aftermath

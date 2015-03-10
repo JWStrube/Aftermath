@@ -21,5 +21,6 @@ public class Recipes
         GameRegistry.addRecipe(new ShapelessOreRecipe(new ItemStack(ModItems.leadIngot, 9), "blockLead"));
 
         GameRegistry.addSmelting(ModBlocks.leadOre, new ItemStack(ModItems.leadIngot), 0.5f);
+        GameRegistry.addSmelting(ModItems.mushroom, new ItemStack(ModItems.cookedMushroom), 0.0f);
     }
 }
