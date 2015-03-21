@@ -10,6 +10,10 @@ public class Names
         public static final String LEAD_INGOT = "leadIngot";
         public static final String COOKED_MUSHROOM = "cookedMushroom";
         public static final String MUSHROOM = "mushroom";
+        public static final String BAT_LEATHER ="batLeather";
+        public static final String LEAD_PLATE ="plateLead";
+        public static final String LINED_LEATHER= "leatherLined";
+        public static final String REBAR = "rebar";
     }
 
     public static final class Blocks
@@ -22,6 +26,7 @@ public class Names
         public static final String DEAD_LOG = "deadLog";
         public static final String MUSHROOM_EDIBLE ="mushroomEdible";
         public static final String MUSHROOM_POISON = "mushroomPoison";
+        
 
     }
 }

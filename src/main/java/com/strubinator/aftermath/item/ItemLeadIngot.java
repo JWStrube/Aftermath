@@ -8,6 +8,7 @@ import net.minecraft.item.Item;
 /**
  * Created by John on 2/28/2015.
  */
+@Deprecated
 public class ItemLeadIngot extends ItemAftermath
 {
     public ItemLeadIngot()

@@ -1,6 +1,14 @@
 item.aftermath:leadIngot.name=Lead Ingot
 item.aftermath:cookedMushroom.name=Cooked Mushroom
 item.aftermath:mushroom.name=White Mushroom
+item.aftermath:batLeather.name=Bat Leather
+item.aftermath:leatherLined.name=Lead Lined Leather Plate
+item.aftermath:plateLead.name=Lead Plate
+item.aftermath:rebar.name=Rebar
+item.aftermath:hazardBasic_helmet.name=Basic Gasmask
+item.aftermath:hazardBasic_chestplate.name=Basic Hazard Chestpiece
+item.aftermath:hazardBasic_leggings.name=Basic Hazard Leggings
+item.aftermath:hazardBasic_boots.name=Basic Hazard Boots
 
 tile.aftermath:leadOre.name=Lead Ore
 tile.aftermath:leadBlock.name=Lead Block
