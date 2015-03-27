@@ -1,6 +1,6 @@
 package com.strubinator.aftermath.block;
 
-import com.strubinator.aftermath.creativetab.CreativeTabAftermath;
+import com.strubinator.aftermath.lib.CreativeTabAftermath;
 import com.strubinator.aftermath.init.ModBlocks;
 import com.strubinator.aftermath.init.ModItems;
 import com.strubinator.aftermath.reference.Reference;

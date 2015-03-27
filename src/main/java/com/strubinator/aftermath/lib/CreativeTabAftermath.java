@@ -1,4 +1,4 @@
-package com.strubinator.aftermath.creativetab;
+package com.strubinator.aftermath.lib;
 
 import com.strubinator.aftermath.init.ModItems;
 import com.strubinator.aftermath.reference.Reference;

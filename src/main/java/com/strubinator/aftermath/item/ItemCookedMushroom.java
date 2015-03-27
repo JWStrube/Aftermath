@@ -1,6 +1,5 @@
 package com.strubinator.aftermath.item;
 
-import com.strubinator.aftermath.creativetab.CreativeTabAftermath;
 import com.strubinator.aftermath.reference.Names;
 import com.strubinator.aftermath.reference.Reference;
 import cpw.mods.fml.relauncher.Side;

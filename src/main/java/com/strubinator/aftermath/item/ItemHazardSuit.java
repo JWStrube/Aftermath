@@ -1,13 +1,11 @@
 package com.strubinator.aftermath.item;
 
-import com.strubinator.aftermath.creativetab.CreativeTabAftermath;
+import com.strubinator.aftermath.lib.CreativeTabAftermath;
 import com.strubinator.aftermath.reference.Reference;
 import cpw.mods.fml.relauncher.Side;
 import cpw.mods.fml.relauncher.SideOnly;
 import net.minecraft.client.renderer.texture.IIconRegister;
 import net.minecraft.entity.Entity;
-import net.minecraft.init.Items;
-import net.minecraft.item.Item;
 import net.minecraft.item.ItemArmor;
 import net.minecraft.item.ItemStack;
 

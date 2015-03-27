@@ -1,17 +1,15 @@
 package com.strubinator.aftermath.block;
 
-import com.strubinator.aftermath.creativetab.CreativeTabAftermath;
+import com.strubinator.aftermath.lib.CreativeTabAftermath;
 import com.strubinator.aftermath.init.ModBlocks;
 import com.strubinator.aftermath.reference.Reference;
 import cpw.mods.fml.relauncher.Side;
 import cpw.mods.fml.relauncher.SideOnly;
 import net.minecraft.block.Block;
 import net.minecraft.block.BlockBush;
-import net.minecraft.block.IGrowable;
 import net.minecraft.client.renderer.texture.IIconRegister;
 import net.minecraft.init.Blocks;
 import net.minecraft.world.World;
-import net.minecraftforge.common.util.ForgeDirection;
 
 import java.util.Random;
 

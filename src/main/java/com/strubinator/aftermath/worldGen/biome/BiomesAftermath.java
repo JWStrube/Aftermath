@@ -8,9 +8,11 @@ import net.minecraftforge.common.BiomeManager.BiomeEntry;
 /**
  * Created by John on 3/2/2015.
  */
+
 public class BiomesAftermath
 {
     public static BiomeGenBase biomeWasteland;
+
 
     public static void init()
     {
@@ -19,7 +21,7 @@ public class BiomesAftermath
 
     private static void registerBiomes()
     {
-        biomeWasteland = new BiomeWasteland(69).setBiomeName("Wasteland");
+        biomeWasteland = new BiomeWasteland(100).setBiomeName("Wasteland");
         BiomeDictionary.registerBiomeType(biomeWasteland, BiomeDictionary.Type.DEAD);
         BiomeManager.addBiome(BiomeManager.BiomeType.WARM, new BiomeManager.BiomeEntry(biomeWasteland,1000));
 

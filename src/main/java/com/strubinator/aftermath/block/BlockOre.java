@@ -1,12 +1,6 @@
 package com.strubinator.aftermath.block;
 
-import com.strubinator.aftermath.creativetab.CreativeTabAftermath;
-import com.strubinator.aftermath.item.ItemAftermath;
-import com.strubinator.aftermath.reference.Names;
-import net.minecraft.init.Blocks;
-import net.minecraft.init.Items;
 import net.minecraft.item.Item;
-import net.minecraft.util.MathHelper;
 import net.minecraft.world.IBlockAccess;
 import net.minecraft.world.World;
 

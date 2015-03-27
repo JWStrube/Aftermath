@@ -1,7 +1,9 @@
 package com.strubinator.aftermath.worldGen.biome;
 import com.strubinator.aftermath.init.ModBlocks;
-import net.minecraft.init.Blocks;
+import com.strubinator.aftermath.lib.OldBiomeSettings;
+import com.strubinator.aftermath.lib.DecorationSettings;
 import net.minecraft.world.biome.BiomeGenBase;
+import net.minecraftforge.common.BiomeDictionary;
 
 /**
  * Created by John on 3/2/2015.
@@ -9,10 +11,10 @@ import net.minecraft.world.biome.BiomeGenBase;
 
     public class BiomeWasteland extends BiomeGenBase
     {
-        private static final Height biomeHeight = new Height(-5.0f, 10.0f);
-        public BiomeWasteland(int id)
+        private static final Height biomeHeight = new Height(.5f, .5f);
+        public BiomeWasteland(int ID)
         {
-            super(id);
+            super(ID);
             this.setHeight(biomeHeight);
             this.setColor(6775623);
             this.setDisableRain();
@@ -22,14 +24,20 @@ import net.minecraft.world.biome.BiomeGenBase;
             this.spawnableCreatureList.clear();
             this.spawnableWaterCreatureList.clear();
 
-            this.topBlock = ModBlocks.deadGrass;
-            this.fillerBlock = ModBlocks.deadDirt;
+            this.topBlock = ModBlocks.organicMatter;
+
+            this.fillerBlock = ModBlocks.organicMatter;
             this.theBiomeDecorator.treesPerChunk = -999;
             this.theBiomeDecorator.grassPerChunk = 1;
             this.theBiomeDecorator.flowersPerChunk = -999;
 
 
         }
+
+       // @Override
+
+
+
 
         @Override
         public int getBiomeGrassColor(int x, int y, int z)

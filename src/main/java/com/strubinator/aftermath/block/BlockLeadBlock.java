@@ -1,6 +1,5 @@
 package com.strubinator.aftermath.block;
 
-import com.strubinator.aftermath.creativetab.CreativeTabAftermath;
 import com.strubinator.aftermath.reference.Names;
 
 /**
